@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--弧度的大小-->
+    <attr name="borderRadius" format="dimension"/>
+    <!--圆形图片和带有圆角的图片-->
+    <attr name="type" format="reference">
+        <enum name="circle" value="0"/>
+        <enum name="round" value="1"/>
+    </attr>
+    <declare-styleable name="roundImageViewAttrs">
+        <!--直接引用上面的-->
+        <attr name="borderRadius"/>
+        <attr name="type"/>
+    </declare-styleable>
+</resources>
