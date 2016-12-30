@@ -36,20 +36,25 @@
        * 方法一:添加libray,拷贝源码到项目中.  
 		![](http://i.imgur.com/CMp1B3e.png).  
         在build中,引入依赖.  
+	
 		 ` compile project(':library')`.  
- 		* 方法二: 无需拷贝源码,在build中,直接引入依赖.
+		 
+ 		* 方法二: 无需拷贝源码,在build中,直接引入依赖.  
+		
  		`compile 'com.gs:roundimageview:1.0.0'`
-        * 布局文件中使用
-    >        <com.example.library.RoundImageView
+		
+        * 布局文件中使用.  
+	
+   >       <com.example.library.RoundImageView
 		        android:layout_marginTop="100dp"
 		        android:id="@+id/circle"
 		        android:layout_width="wrap_content"
 		        android:layout_height="wrap_content"
 		        android:layout_centerHorizontal="true"
 		        android:src="@drawable/a"
-		        gs:type="circle"/>
+		        gs:type="circle"/> 
     </li>
-		</li>
+		
 
 
  
