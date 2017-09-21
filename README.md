@@ -43,7 +43,10 @@
 		
  		`compile 'com.gs:roundimageview:1.0.0'`
 		
-        * 布局文件中使用.  
+        * 布局文件中使用方法.  
+	 1 引入命名空间: xmlns:gs="http://schemas.android.com/apk/res-auto",注意空间名为gs
+	 2 type:类型为circle,直接就是圆形,不需要半径; 类型为:round,需要定义圆弧半径,gs:type="round"   
+	        gs:borderRadius="15dp",注意需要跟type一起使用
 	
    >       <com.example.library.RoundImageView
 		        android:layout_marginTop="100dp"
