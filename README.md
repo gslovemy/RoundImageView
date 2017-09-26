@@ -41,7 +41,7 @@
 		 
  		* 方法二: 无需拷贝源码,在build中,直接引入依赖.  
 		
- 		`compile 'com.gs:roundimageview:1.0.0'`
+ 		`compile 'com.gs:roundimageview:1.0.1'`
 		
         * 布局文件中使用方法.  
 	 1 引入命名空间: xmlns:gs="http://schemas.android.com/apk/res-auto",注意空间名为gs
