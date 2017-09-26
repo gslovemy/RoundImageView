@@ -84,7 +84,7 @@ public class RoundImageView extends ImageView {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
 
         //如果是圆形,强制宽高一样
-        if (type == TYPE_ROUND) {
+        if (type == TYPE_CIRCLE) {
             //保证能拿到数据
 //            measure(0, 0);
             int width = Math.min(getMeasuredHeight(), getMeasuredWidth());
